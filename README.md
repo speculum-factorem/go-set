@@ -3,8 +3,9 @@
 This repository provides a simple and efficient implementation of a set data structure in Go. It uses a map under the hood for fast lookups and insertions.
 
 ## Installation
-bash
+```bash
 go get github.com/speculum-factorem/go-set
+```
 ## Usage
 ```go
 package main
