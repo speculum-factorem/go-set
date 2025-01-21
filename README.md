@@ -4,14 +4,14 @@ This repository provides a simple and efficient implementation of a set data str
 
 ## Installation
 bash
-go get github.com/your-username/set // Replace your-username with your actual GitHub username
+go get github.com/speculum-factorem/go-set
 ## Usage
-go
+```go
 package main
 
 import (
  "fmt"
- "github.com/your-username/set" // Replace your-username with your actual GitHub username
+ "github.com/speculum-factorem/go-set"
 )
 
 func main() {
@@ -34,6 +34,8 @@ func main() {
  s.Clear()
  fmt.Println(s.Size())       // Output: 0
 }
+```
+
 ## API Reference
 
 * *`New()`*: Creates a new empty set. Returns a pointer to the `Set` struct.
@@ -63,7 +65,3 @@ func main() {
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests for bug fixes, new features, or improvements to the documentation.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
