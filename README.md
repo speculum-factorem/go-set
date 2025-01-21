@@ -4,7 +4,7 @@ This repository provides a simple and efficient implementation of a set data str
 
 ## Installation
 ```bash
-go get github.com/speculum-factorem/go-set
+go get github.com/speculum-factorem/go-set/set
 ```
 ## Usage
 ```go
@@ -12,7 +12,7 @@ package main
 
 import (
  "fmt"
- "github.com/speculum-factorem/go-set"
+ "github.com/speculum-factorem/go-set/set"
 )
 
 func main() {
